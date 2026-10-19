@@ -71,7 +71,7 @@ I received my M.Tech. from Ramaiah Institute of Technology, where my thesis won 
   <li>
     <span class="ak-news__date">2025</span>
     <a href="/publication/fewshot_spt">FewShot-SPT</a> — few-shot spatiotemporal perception transformer for unseen
-    behavioral anomalies, deployed on edge hardware — published at <strong>IEEE AVSS 2025</strong>.
+    behavioral anomalies, deployed on edge hardware — published at <strong>IEEE AVSS 2025</strong>. Work in collaboration with <strong>The Ohio State University</strong> and <strong>Ming Chi University of Technology</strong>.
   </li>
   <li>
     <span class="ak-news__date">Apr 2025</span>
