@@ -19,8 +19,8 @@ infrastructure that let them run reliably in the real world, from edge devices t
 My latest focus is the <strong>theory of controllable image generation</strong>: treating controllability as a
 property of <strong>structured latent geometry</strong> rather than inference-time conditioning
 (<a href="/publication/controlla">Controlla</a>), and measuring what generated images lose in meaning
-(<a href="/publication/kathatrace">KathaTrace</a>), both in collaboration with
-<a href="https://cse.osu.edu/people/ramnath.6">Prof. Rajiv Ramnath</a>'s group at The Ohio State University.
+(<a href="/publication/kathatrace">KathaTrace</a>), both as an external collaborator with
+<a href="https://cse.osu.edu/people/ramnath.6">Prof. Rajiv Ramnath</a>'s CETI research group at The Ohio State University.
 I received my M.Tech. from Ramaiah Institute of Technology, where my thesis won the
 <strong>Best Master's Thesis Award</strong> (2017), and in 2024 I received the
 <strong>STEM Young Researcher Award</strong>.
@@ -55,13 +55,13 @@ I received my M.Tech. from Ramaiah Institute of Technology, where my thesis won 
     <span class="ak-news__date">Jul 2026</span>
     <a href="/publication/kathatrace">KathaTrace</a> — diagnosing semantic trajectory collapse in generated visual
     narratives, with the KathaBench-25K benchmark — published on <a href="https://arxiv.org/abs/2607.01312">arXiv</a> and under submission to a CORE A* venue.
-    New work in collaboration with <strong>The Ohio State University</strong>.
+    New work with the <strong>CETI research group, The Ohio State University</strong>.
   </li>
   <li>
     <span class="ak-news__date">May 2026</span>
     <a href="/publication/controlla">Controlla</a> — learning controllability via graph-constrained latent geometry,
     with the AffectHuman-43K benchmark — published on <a href="https://arxiv.org/abs/2605.16603">arXiv</a> and under submission to a CORE A* venue.
-    New work in collaboration with <strong>The Ohio State University</strong>.
+    New work with the <strong>CETI research group, The Ohio State University</strong>.
   </li>
   <li>
     <span class="ak-news__date">2026</span>
@@ -249,7 +249,7 @@ I received my M.Tech. from Ramaiah Institute of Technology, where my thesis won 
     <span class="ak-exp__meta">2022 – present · Bengaluru, India</span>
     <ul class="ak-exp__body">
       <li>Lab affiliation: Center for Imaging Technologies.</li>
-      <li>Research collaboration with <a href="https://cse.osu.edu/people/ramnath.6">Prof. Rajiv Ramnath</a>, The Ohio State University, on controllable image generation and generated visual narratives.</li>
+      <li>External collaborator with <a href="https://cse.osu.edu/people/ramnath.6">Prof. Rajiv Ramnath</a>'s CETI research group, The Ohio State University, on controllable image generation and generated visual narratives.</li>
       <li>Teaches Artificial Intelligence and Machine Learning, Deep Learning, and Cloud Computing and Big Data; faculty sponsor of the RIT ACM Student Chapter.</li>
     </ul>
   </li>
