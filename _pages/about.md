@@ -74,6 +74,11 @@ I received my M.Tech. from Ramaiah Institute of Technology, where my thesis won 
     <strong>ACM Multimedia 2026</strong>, and <strong>ACM Multimedia Asia 2026</strong>.
   </li>
   <li>
+    <span class="ak-news__date">Nov 2025</span>
+    Completed the <strong>Samsung PRISM</strong> worklet <em>NextGen AI Datastore</em> for multimodal video retrieval as
+    faculty mentor (<a href="/files/samsung-prism-nextgen-datastore-certificate.pdf">certificate</a>).
+  </li>
+  <li>
     <span class="ak-news__date">Aug 2025</span>
     <a href="/publication/fewshot_spt">FewShot-SPT</a> — few-shot spatiotemporal perception transformer for unseen
     behavioral anomalies, deployed on edge hardware — published at <strong>IEEE AVSS 2025</strong> (CORE A). Work in collaboration with <strong>The Ohio State University</strong> and <strong>Ming Chi University of Technology</strong>.
@@ -269,10 +274,10 @@ I received my M.Tech. from Ramaiah Institute of Technology, where my thesis won 
     <div class="ak-exp__head">
       <span class="ak-exp__role">Faculty Mentor — Samsung PRISM (Samsung R&amp;D)</span>
     </div>
-    <span class="ak-exp__meta">Jun 2024 – May 2025 · Bengaluru, India</span>
+    <span class="ak-exp__meta">Jun 2024 – Nov 2025 · Bengaluru, India</span>
     <ul class="ak-exp__body">
       <li><strong>Expression Correction in Photos:</strong> GAN-based affective computing models for emotion-aware image enhancement, including blink and expression refinement. <a href="/files/samsung-prism-certificate.pdf">Certificate</a></li>
-      <li><strong>NextGen AI Datastore for Video Retrieval</strong> <em>(ongoing)</em>: a scalable vector database for multimodal video retrieval with vision–language embeddings, focused on semantic search, indexing, and real-time retrieval.</li>
+      <li><strong>NextGen AI Datastore for Video Retrieval</strong> <em>(May – Nov 2025, completed)</em>: a scalable vector database for multimodal video retrieval with vision–language embeddings, focused on semantic search, indexing, and real-time retrieval. <a href="/files/samsung-prism-nextgen-datastore-certificate.pdf">Certificate</a></li>
     </ul>
   </li>
 
@@ -367,6 +372,27 @@ I received my M.Tech. from Ramaiah Institute of Technology, where my thesis won 
   </tbody>
 </table>
 
+<h3 class="ak-subhead">Student Mentoring</h3>
+
+<ul class="ak-pubs ak-pubs--plain">
+  <li>
+    <span class="ak-pubs__title">Smart India Hackathon 2023 — Winning team, as faculty mentor</span>
+    <span class="ak-pubs__meta">Grand Finale, Senior Software Edition, December 2023 · Ministry of Education, Government of India · <a href="/files/smart-india-hackathon-2023-winner-certificate.pdf">Certificate</a></span>
+  </li>
+  <li>
+    <span class="ak-pubs__title">Unisys Innovation Program — Faculty mentor</span>
+    <span class="ak-pubs__meta">Mentored finalist teams three years running: 2023, 2024, 2025</span>
+  </li>
+  <li>
+    <span class="ak-pubs__title">ICPC — Mentor and coach</span>
+    <span class="ak-pubs__meta">2023, 2024, 2025 · ICPC Asia Amritapuri Regional 2024 <a href="/files/icpc-asia-amritapuri-2024-certificate.pdf">Certificate</a></span>
+  </li>
+  <li>
+    <span class="ak-pubs__title">Samsung PRISM — Faculty mentor</span>
+    <span class="ak-pubs__meta">2024 – 2025 · Two industry worklets with Samsung R&amp;D (see Experience)</span>
+  </li>
+</ul>
+
 <h3 class="ak-subhead">Leadership &amp; Memberships</h3>
 
 <ul class="ak-pubs ak-pubs--plain">
@@ -389,6 +415,11 @@ I received my M.Tech. from Ramaiah Institute of Technology, where my thesis won 
   <li>
     <span class="ak-badge ak-badge--award">2024</span>
     <strong>Young Researcher Award</strong>, STEM Research Society.
+  </li>
+  <li>
+    <span class="ak-badge ak-badge--award">2023</span>
+    <strong>Smart India Hackathon — Winner</strong> (as faculty mentor of the winning team), Ministry of Education, Government of India.
+    <span class="ak-awards__note"><a href="/files/smart-india-hackathon-2023-winner-certificate.pdf">Certificate</a></span>
   </li>
   <li>
     <span class="ak-badge ak-badge--award">2017</span>
