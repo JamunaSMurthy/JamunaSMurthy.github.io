@@ -8,4 +8,4 @@ date: 2025-01-01
 location: "Bengaluru, India"
 ---
 
-Undergraduate course on deep learning.
+Undergraduate course on deep learning, taught in the spring semester.

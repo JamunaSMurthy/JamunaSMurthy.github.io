@@ -97,7 +97,7 @@ redirect_from:
   </li>
   <li>
     <span class="ak-pubs__title">Deep Learning</span> — Ramaiah Institute of Technology
-    <span class="ak-pubs__meta">Undergraduate</span>
+    <span class="ak-pubs__meta">Undergraduate · Spring semester</span>
   </li>
 </ul>
 
