@@ -303,6 +303,13 @@ I received my M.Tech. from Ramaiah Institute of Technology, where my thesis won 
     </div>
     <span class="ak-exp__meta">2017 – 2018 · Bengaluru, India</span>
   </li>
+
+  <li>
+    <div class="ak-exp__head">
+      <span class="ak-exp__role">Intern — Amazon</span>
+    </div>
+    <span class="ak-exp__meta">Jun 2016 – Jun 2017</span>
+  </li>
 </ul>
 
 <h2 class="ak-section" id="funding">Funding &amp; Patents</h2>

@@ -1,5 +1,6 @@
 ---
 title: "Multimodal Humor Detection in Videos via Domain-Specific Representations and Deep Hybrid Fusion Networks"
+authors: "<strong>Jamuna S. Murthy</strong>, et al."
 collection: publications
 permalink: /publication/humor_detection_dhf
 date: 2026-09-15

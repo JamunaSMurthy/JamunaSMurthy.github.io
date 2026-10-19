@@ -78,6 +78,10 @@ redirect_from:
     <div class="ak-exp__head"><span class="ak-exp__role">Research Assistant — Indian Institute of Science, Department of CDS</span></div>
     <span class="ak-exp__meta">2017 – 2018 · Bengaluru, India</span>
   </li>
+  <li>
+    <div class="ak-exp__head"><span class="ak-exp__role">Intern — Amazon</span></div>
+    <span class="ak-exp__meta">Jun 2016 – Jun 2017</span>
+  </li>
 </ul>
 
 <h2 class="ak-section" id="teaching">Teaching</h2>

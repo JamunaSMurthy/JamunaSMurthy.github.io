@@ -1,5 +1,6 @@
 ---
 title: "CAMMEL-ViT: Context-Aware Memory with Lightweight Vision Transformers for Medical Image Segmentation"
+authors: "<strong>Jamuna S. Murthy</strong>, et al."
 collection: publications
 permalink: /publication/cammel_vit
 date: 2026-07-15
