@@ -39,8 +39,8 @@ redirect_from:
     <ul class="ak-exp__body">
       <li>Lab affiliation: Center for Imaging Technologies.</li>
       <li>Research collaboration with <a href="https://cse.osu.edu/people/ramnath.6">Prof. Rajiv Ramnath</a>, The Ohio State University, on controllable image generation and generated visual narratives.</li>
-      <li><a href="https://arxiv.org/abs/2605.16603">Controlla</a>: controllability as graph-constrained latent geometry for identity-preserving multimodal affective control, with the AffectHuman-43K benchmark. <em>[arXiv 2026]</em></li>
-      <li><a href="https://arxiv.org/abs/2607.01312">KathaTrace</a>: a generator-agnostic protocol for diagnosing semantic trajectory collapse in generated visual narratives, with KathaBench-25K. <em>[arXiv 2026]</em></li>
+      <li><a href="https://arxiv.org/abs/2605.16603">Controlla</a>: controllability as graph-constrained latent geometry for identity-preserving multimodal affective control, with the AffectHuman-43K benchmark. <em>[under submission, A*]</em></li>
+      <li><a href="https://arxiv.org/abs/2607.01312">KathaTrace</a>: a generator-agnostic protocol for diagnosing semantic trajectory collapse in generated visual narratives, with KathaBench-25K. <em>[under submission, A*]</em></li>
       <li><a href="{{ base_path }}/publication/cammel_vit">CAMMEL-ViT</a>: context-aware memory with lightweight vision transformers for medical image segmentation. <em>[MIUA 2026]</em></li>
       <li><a href="{{ base_path }}/publication/humor_detection_dhf">Multimodal humor detection</a> in videos via domain-specific representations and deep hybrid fusion networks. <em>[Soft Computing 2026]</em></li>
       <li><a href="https://ieeexplore.ieee.org/abstract/document/11149904/">FewShot-SPT</a>: few-shot spatiotemporal perception transformer for unseen behavioral anomalies, deployed on edge hardware. <em>[AVSS 2025, CORE A]</em></li>
@@ -106,11 +106,11 @@ redirect_from:
 
 <ul class="ak-pubs">
   <li>
-    <span class="ak-badge ak-badge--workshop">arXiv 2026</span>
+    <span class="ak-badge ak-badge--workshop">Under Submission</span>
     <a class="ak-pubs__title" href="https://arxiv.org/abs/2607.01312">KathaTrace: Diagnosing Semantic Trajectory Collapse in Generated Visual Narratives</a>
   </li>
   <li>
-    <span class="ak-badge ak-badge--workshop">arXiv 2026</span>
+    <span class="ak-badge ak-badge--workshop">Under Submission</span>
     <a class="ak-pubs__title" href="https://arxiv.org/abs/2605.16603">Controlla: Learning Controllability via Graph-Constrained Latent Geometry</a>
   </li>
   <li>

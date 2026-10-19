@@ -54,13 +54,13 @@ I received my M.Tech. from Ramaiah Institute of Technology, where my thesis won 
   <li>
     <span class="ak-news__date">Jul 2026</span>
     <a href="/publication/kathatrace">KathaTrace</a> — diagnosing semantic trajectory collapse in generated visual
-    narratives, with the KathaBench-25K benchmark — published on <a href="https://arxiv.org/abs/2607.01312">arXiv</a>.
+    narratives, with the KathaBench-25K benchmark — published on <a href="https://arxiv.org/abs/2607.01312">arXiv</a> and under submission to a CORE A* venue.
     New work in collaboration with <strong>The Ohio State University</strong>.
   </li>
   <li>
     <span class="ak-news__date">May 2026</span>
     <a href="/publication/controlla">Controlla</a> — learning controllability via graph-constrained latent geometry,
-    with the AffectHuman-43K benchmark — published on <a href="https://arxiv.org/abs/2605.16603">arXiv</a>.
+    with the AffectHuman-43K benchmark — published on <a href="https://arxiv.org/abs/2605.16603">arXiv</a> and under submission to a CORE A* venue.
     New work in collaboration with <strong>The Ohio State University</strong>.
   </li>
   <li>
@@ -167,16 +167,16 @@ I received my M.Tech. from Ramaiah Institute of Technology, where my thesis won 
 
 <ul class="ak-pubs ak-pubs--figures">
   <li class="has-fig">
-    <span class="ak-badge ak-badge--workshop">Preprint 2026</span>
+    <span class="ak-badge ak-badge--workshop">Under Submission</span>
     <img class="ak-pubs__fig" src="/images/papers/kathatrace.jpg" alt="" loading="lazy" decoding="async">
     <a class="ak-pubs__title" href="/publication/kathatrace">KathaTrace: Diagnosing Semantic Trajectory Collapse in Generated Visual Narratives</a>
-    <span class="ak-pubs__meta">arXiv preprint, 2026</span>
+    <span class="ak-pubs__meta">Under submission to a CORE A* venue · arXiv preprint, 2026</span>
   </li>
   <li class="has-fig">
-    <span class="ak-badge ak-badge--workshop">Preprint 2026</span>
+    <span class="ak-badge ak-badge--workshop">Under Submission</span>
     <img class="ak-pubs__fig" src="/images/papers/controlla.jpg" alt="" loading="lazy" decoding="async">
     <a class="ak-pubs__title" href="/publication/controlla">Controlla: Learning Controllability via Graph-Constrained Latent Geometry</a>
-    <span class="ak-pubs__meta">arXiv preprint, 2026</span>
+    <span class="ak-pubs__meta">Under submission to a CORE A* venue · arXiv preprint, 2026</span>
   </li>
   <li class="has-fig">
     <span class="ak-badge ak-badge--journal">Journal 2026</span>
@@ -250,7 +250,7 @@ I received my M.Tech. from Ramaiah Institute of Technology, where my thesis won 
     <ul class="ak-exp__body">
       <li>Lab affiliation: Center for Imaging Technologies.</li>
       <li>Research collaboration with <a href="https://cse.osu.edu/people/ramnath.6">Prof. Rajiv Ramnath</a>, The Ohio State University, on controllable image generation and generated visual narratives.</li>
-      <li>Research on controllable multimodal generation (<a href="/publication/controlla">Controlla</a>, <em>[arXiv 2026]</em>), evaluation of generated visual narratives (<a href="/publication/kathatrace">KathaTrace</a>, <em>[arXiv 2026]</em>), and few-shot video anomaly detection (<a href="/publication/fewshot_spt">FewShot-SPT</a>, <em>[AVSS 2025, CORE A]</em>).</li>
+      <li>Research on controllable multimodal generation (<a href="/publication/controlla">Controlla</a>, <em>[under submission, A*]</em>), evaluation of generated visual narratives (<a href="/publication/kathatrace">KathaTrace</a>, <em>[under submission, A*]</em>), and few-shot video anomaly detection (<a href="/publication/fewshot_spt">FewShot-SPT</a>, <em>[AVSS 2025, CORE A]</em>).</li>
       <li>Teaches Artificial Intelligence and Machine Learning, Deep Learning, and Cloud Computing and Big Data; faculty sponsor of the RIT ACM Student Chapter.</li>
     </ul>
   </li>

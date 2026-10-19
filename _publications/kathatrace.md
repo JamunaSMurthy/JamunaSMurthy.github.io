@@ -4,7 +4,7 @@ authors: "<strong>Jamuna S. Murthy</strong>, Amin Karimi Monsefi, Rajiv Ramnath"
 collection: publications
 permalink: /publication/kathatrace
 date: 2026-07-01
-venue: 'arXiv preprint'
+venue: 'Under submission to a CORE A* venue · arXiv preprint'
 paperurl: 'https://arxiv.org/abs/2607.01312'
 figure: 'kathatrace.jpg'
 project: 'https://jamunasmurthy.github.io/kathatrace/'

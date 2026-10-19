@@ -4,7 +4,7 @@ authors: "<strong>Jamuna S. Murthy</strong>, Amin Karimi Monsefi, Rajiv Ramnath"
 collection: publications
 permalink: /publication/controlla
 date: 2026-05-15
-venue: 'arXiv preprint'
+venue: 'Under submission to a CORE A* venue · arXiv preprint'
 paperurl: 'https://arxiv.org/abs/2605.16603'
 figure: 'controlla.jpg'
 project: 'https://jamunasmurthy.github.io/controlla-affecthuman/'
