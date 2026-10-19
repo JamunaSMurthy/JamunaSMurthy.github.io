@@ -376,6 +376,10 @@ I received my M.Tech. from Ramaiah Institute of Technology, where my thesis won 
     <span class="ak-pubs__meta">2023 – present · Ramaiah Institute of Technology</span>
   </li>
   <li>
+    <span class="ak-pubs__title">Member, Association for Computing Machinery (ACM)</span>
+    <span class="ak-pubs__meta">Since 2020</span>
+  </li>
+  <li>
     <span class="ak-pubs__title">Lifetime Member, Indian Society for Technical Education (ISTE)</span>
   </li>
 </ul>
