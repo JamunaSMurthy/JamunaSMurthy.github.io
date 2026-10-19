@@ -39,13 +39,13 @@ I received my M.Tech. from Ramaiah Institute of Technology, where my thesis won 
     <span class="ak-news__date">2026</span>
     <span class="ak-badge ak-badge--new">New</span>
     <a href="/publication/kathatrace">KathaTrace</a> — diagnosing semantic trajectory collapse in generated visual
-    narratives, with the KathaBench-25K benchmark — accepted at <strong>WACV 2027</strong> as <strong>first author</strong>.
+    narratives, with the KathaBench-25K benchmark — accepted at <strong>WACV 2027</strong>. New work in collaboration with <strong>The Ohio State University</strong>.
   </li>
   <li>
     <span class="ak-news__date">Sep 2026</span>
     <span class="ak-badge ak-badge--new">New</span>
     <a href="/publication/controlla">Controlla</a> — learning controllability via graph-constrained latent geometry,
-    with the AffectHuman-43K benchmark — accepted at <strong>NeurIPS 2026</strong> as <strong>first author</strong>.
+    with the AffectHuman-43K benchmark — accepted at <strong>NeurIPS 2026</strong>. New work in collaboration with <strong>The Ohio State University</strong>.
   </li>
   <li>
     <span class="ak-news__date">Sep 2026</span>
