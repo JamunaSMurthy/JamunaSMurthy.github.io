@@ -23,7 +23,7 @@ property of <strong>structured latent geometry</strong> rather than inference-ti
 <a href="https://cse.osu.edu/people/ramnath.6">Prof. Rajiv Ramnath</a>'s group at The Ohio State University.
 I received my M.Tech. from Ramaiah Institute of Technology, where my thesis won the
 <strong>Best Master's Thesis Award</strong> (2017), and in 2024 I received the
-<a href="https://stemrs.in/awardee.php">STEM Young Researcher Award</a>.
+<strong>STEM Young Researcher Award</strong>.
 </p>
 
 <ul class="ak-links">
@@ -390,7 +390,6 @@ I received my M.Tech. from Ramaiah Institute of Technology, where my thesis won 
   <li>
     <span class="ak-badge ak-badge--award">2024</span>
     <strong>Young Researcher Award</strong>, STEM Research Society.
-    <span class="ak-awards__note"><a href="https://stemrs.in/awardee.php">Awardee listing</a></span>
   </li>
   <li>
     <span class="ak-badge ak-badge--award">2017</span>
