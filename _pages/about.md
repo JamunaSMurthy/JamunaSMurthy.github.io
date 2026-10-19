@@ -1,7 +1,7 @@
 ---
 permalink: /
 title: "Jamuna S Murthy"
-excerpt: "Assistant Professor at Ramaiah Institute of Technology, Bengaluru, working on multimodal AI, video understanding, controllable generative models, and anomaly detection."
+excerpt: "Assistant Professor at Ramaiah Institute of Technology, Bengaluru, working on vision–language models and scalable AI systems, with a current focus on the theory of controllable image generation."
 author_profile: true
 redirect_from: 
   - /about/
@@ -13,11 +13,12 @@ redirect_from:
 <p class="ak-lead">
 I am an Assistant Professor in the <strong>Department of Computer Science and Engineering</strong> at
 <a href="https://www.msrit.edu/">Ramaiah Institute of Technology</a>, Bengaluru, India, affiliated with the
-<strong>Center for Imaging Technologies</strong>. My research focuses on <strong>multimodal video understanding,
-anomaly detection, and controllable generative models</strong> — how motion, behavior, semantics, and
-cross-modal signals from visual, textual, and audio data can be modeled for reliable, real-time intelligent systems.
-Recent work treats <strong>controllability as latent geometry</strong> (<a href="/publication/controlla">Controlla</a>)
-and diagnoses <strong>what generated visual stories lose in meaning</strong>
+<strong>Center for Imaging Technologies</strong>. My research centers on <strong>vision–language models and scalable
+AI systems</strong> — models that ground language in images, video, and audio, and the efficient architectures and
+infrastructure that let them run reliably in the real world, from edge devices to cloud services.
+My latest focus is the <strong>theory of controllable image generation</strong>: treating controllability as a
+property of <strong>structured latent geometry</strong> rather than inference-time conditioning
+(<a href="/publication/controlla">Controlla</a>), and measuring what generated images lose in meaning
 (<a href="/publication/kathatrace">KathaTrace</a>), both in collaboration with The Ohio State University.
 I received my M.Tech. from Ramaiah Institute of Technology, where my thesis won the
 <strong>Best Master's Thesis Award</strong> (2017), and in 2024 I received the
@@ -97,46 +98,31 @@ I received my M.Tech. from Ramaiah Institute of Technology, where my thesis won 
 
 <h2 class="ak-section" id="research">Research Interests</h2>
 
+<p class="ak-card__links">
+  Two threads — <strong>vision–language models</strong> and <strong>scalable AI systems</strong> — with controllable
+  image generation as my current theoretical focus.
+</p>
+
 <div class="ak-grid">
   <div class="ak-card">
-    <h3>Controllable Multimodal Generation</h3>
+    <h3>Controllable Image Generation: Theory <span class="ak-badge ak-badge--new">Latest</span></h3>
     <p>
-      Treating controllability as a property of <strong>structured latent geometry</strong> — factorized identity and
-      attribute spaces aligned with graph priors, so edits follow consistent trajectories while identity is preserved.
+      Controllability as a property of <strong>latent geometry</strong> — factorized identity and attribute spaces
+      aligned with graph priors through optimal transport, so edits follow consistent trajectories while identity is
+      preserved — and principled measures of whether generated images still <strong>carry the intended meaning</strong>.
     </p>
     <p class="ak-card__links">
-      <a href="/publication/controlla">Controlla</a>
-    </p>
-  </div>
-
-  <div class="ak-card">
-    <h3>Evaluating Generated Visual Narratives</h3>
-    <p>
-      Diagnostic protocols for failures that visual-quality scores miss — whether a generated storyboard still
-      carries the <strong>transition meaning</strong> of the source story.
-    </p>
-    <p class="ak-card__links">
+      <a href="/publication/controlla">Controlla</a> ·
       <a href="/publication/kathatrace">KathaTrace</a>
     </p>
   </div>
 
   <div class="ak-card">
-    <h3>Video Anomaly Detection &amp; Real-Time Perception</h3>
+    <h3>Vision–Language &amp; Multimodal Understanding</h3>
     <p>
-      Few-shot, multimodal transformers for <strong>unseen behavioral anomalies</strong> in surveillance, and
-      real-time detection for driver assistance — deployed under <strong>edge constraints</strong>.
-    </p>
-    <p class="ak-card__links">
-      <a href="/publication/fewshot_spt">FewShot-SPT</a> ·
-      <a href="/publication/objectdetect">ObjectDetect</a>
-    </p>
-  </div>
-
-  <div class="ak-card">
-    <h3>Multimodal Fusion for Video Understanding</h3>
-    <p>
-      Fusing text, image, and audio for video analytics — <strong>adaptive and attention-based fusion</strong> for
-      humor and sarcasm detection.
+      Grounding language in visual and acoustic signals — <strong>cross-modal attention and hybrid fusion</strong> of
+      text, image, and audio representations for understanding subtle, human-centric content such as humor and sarcasm
+      in video.
     </p>
     <p class="ak-card__links">
       <a href="/publication/humor_detection_dhf">Humor Detection</a> ·
@@ -146,23 +132,30 @@ I received my M.Tech. from Ramaiah Institute of Technology, where my thesis won 
   </div>
 
   <div class="ak-card">
-    <h3>Efficient Medical Image Segmentation</h3>
+    <h3>Efficient Vision Transformers for Real-World Perception</h3>
     <p>
-      <strong>Lightweight vision transformers</strong> with context-aware memory for accurate segmentation of
-      medical images.
+      <strong>Lightweight, memory-efficient transformers</strong> that keep global context affordable — for medical
+      image segmentation, few-shot video anomaly detection on edge hardware, real-time driver assistance, and
+      surgical video analytics.
     </p>
     <p class="ak-card__links">
-      <a href="/publication/cammel_vit">CAMMEL-ViT</a>
+      <a href="/publication/cammel_vit">CAMMEL-ViT</a> ·
+      <a href="/publication/fewshot_spt">FewShot-SPT</a> ·
+      <a href="/publication/objectdetect">ObjectDetect</a> ·
+      <a href="#funding">Surgeon's Eye (patent)</a>
     </p>
   </div>
 
   <div class="ak-card">
-    <h3>Real-Time Streaming Analytics</h3>
+    <h3>Scalable AI Systems</h3>
     <p>
-      Low-latency NLP pipelines over distributed streaming systems for <strong>sentiment and trend analysis</strong>
-      with interactive visualization.
+      Infrastructure that takes models to production — <strong>vision–language retrieval</strong> over large video
+      collections, <strong>RAG and tool-calling agent</strong> stacks, and low-latency streaming analytics on
+      distributed systems.
     </p>
     <p class="ak-card__links">
+      <a href="#experience">Video Retrieval Datastore</a> ·
+      <a href="#experience">AI-ACC-Stack</a> ·
       <a href="/publication/twitsenti">TwitSenti</a> ·
       <a href="/publication/twitter_trend">Twitter Trend Analysis</a>
     </p>

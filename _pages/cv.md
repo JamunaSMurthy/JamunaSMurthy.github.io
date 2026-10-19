@@ -218,19 +218,19 @@ redirect_from:
 
 <div class="ak-grid">
   <div class="ak-card">
-    <h3>Multimodal AI</h3>
-    <p>Cross-modal fusion of vision, text, and audio; controllable multimodal generation</p>
+    <h3>Controllable Image Generation (Theory)</h3>
+    <p>Controllability as latent geometry; graph-constrained optimal transport; evaluating meaning in generated images</p>
   </div>
   <div class="ak-card">
-    <h3>Video Analytics</h3>
-    <p>Anomaly detection, surveillance, real-time perception on edge devices</p>
+    <h3>Vision–Language Models</h3>
+    <p>Cross-modal attention and fusion of vision, text, and audio; multimodal video understanding</p>
   </div>
   <div class="ak-card">
-    <h3>Generative Models</h3>
-    <p>Latent geometry for control, visual storytelling evaluation, affective editing</p>
+    <h3>Efficient Vision Transformers</h3>
+    <p>Lightweight transformers for medical segmentation, edge video analytics, and real-time perception</p>
   </div>
   <div class="ak-card">
-    <h3>Scalable &amp; Agentic AI Systems</h3>
-    <p>Streaming analytics, RAG and tool-calling agents, cloud deployment</p>
+    <h3>Scalable AI Systems</h3>
+    <p>Vision–language retrieval, RAG and tool-calling agents, streaming analytics, cloud deployment</p>
   </div>
 </div>
