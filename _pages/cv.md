@@ -40,6 +40,8 @@ redirect_from:
       <li>Lab affiliation: Center for Imaging Technologies.</li>
       <li><a href="https://arxiv.org/abs/2605.16603">Controlla</a>: controllability as graph-constrained latent geometry for identity-preserving multimodal affective control, with the AffectHuman-43K benchmark. <em>[NeurIPS 2026]</em></li>
       <li><a href="https://arxiv.org/abs/2607.01312">KathaTrace</a>: a generator-agnostic protocol for diagnosing semantic trajectory collapse in generated visual narratives, with KathaBench-25K. <em>[WACV 2027]</em></li>
+      <li><a href="{{ base_path }}/publication/cammel_vit">CAMMEL-ViT</a>: context-aware memory with lightweight vision transformers for medical image segmentation. <em>[MIUA 2026]</em></li>
+      <li><a href="{{ base_path }}/publication/humor_detection_dhf">Multimodal humor detection</a> in videos via domain-specific representations and deep hybrid fusion networks. <em>[Soft Computing 2026]</em></li>
       <li><a href="https://ieeexplore.ieee.org/abstract/document/11149904/">FewShot-SPT</a>: few-shot spatiotemporal perception transformer for unseen behavioral anomalies, deployed on edge hardware. <em>[AVSS 2025]</em></li>
     </ul>
   </li>
@@ -105,6 +107,14 @@ redirect_from:
   <li>
     <span class="ak-badge">NeurIPS 2026</span>
     <a class="ak-pubs__title" href="https://arxiv.org/abs/2605.16603">Controlla: Learning Controllability via Graph-Constrained Latent Geometry</a>
+  </li>
+  <li>
+    <span class="ak-badge ak-badge--journal">SOCO 2026</span>
+    <a class="ak-pubs__title" href="{{ base_path }}/publication/humor_detection_dhf">Multimodal Humor Detection in Videos via Domain-Specific Representations and Deep Hybrid Fusion Networks</a>
+  </li>
+  <li>
+    <span class="ak-badge">MIUA 2026</span>
+    <a class="ak-pubs__title" href="{{ base_path }}/publication/cammel_vit">CAMMEL-ViT: Context-Aware Memory with Lightweight Vision Transformers for Medical Image Segmentation</a>
   </li>
   <li>
     <span class="ak-badge">AVSS 2025</span>

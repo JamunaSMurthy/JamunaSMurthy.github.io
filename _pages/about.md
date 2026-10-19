@@ -48,6 +48,17 @@ I received my M.Tech. from Ramaiah Institute of Technology, where my thesis won 
     with the AffectHuman-43K benchmark — accepted at <strong>NeurIPS 2026</strong> as <strong>first author</strong>.
   </li>
   <li>
+    <span class="ak-news__date">Sep 2026</span>
+    <span class="ak-badge ak-badge--new">New</span>
+    <a href="/publication/humor_detection_dhf">Multimodal Humor Detection in Videos via Domain-Specific Representations and
+    Deep Hybrid Fusion Networks</a> accepted in <strong>Soft Computing</strong> (Springer Nature).
+  </li>
+  <li>
+    <span class="ak-news__date">Jul 2026</span>
+    <a href="/publication/cammel_vit">CAMMEL-ViT</a> — context-aware memory with lightweight vision transformers for
+    medical image segmentation — accepted and presented at <strong>MIUA 2026</strong>, University College Dublin.
+  </li>
+  <li>
     <span class="ak-news__date">2027</span>
     Serving as a reviewer for <strong>AAAI 2027</strong>, <strong>AISTATS 2027</strong>,
     <strong>ACM Multimedia 2027</strong>, and <strong>ACM Multimedia Asia 2027</strong>.
@@ -125,8 +136,20 @@ I received my M.Tech. from Ramaiah Institute of Technology, where my thesis won 
       humor and sarcasm detection.
     </p>
     <p class="ak-card__links">
+      <a href="/publication/humor_detection_dhf">Humor Detection</a> ·
       <a href="/publication/deep_hybrid_fusion">Deep Hybrid Fusion</a> ·
       <a href="/publication/sarcasnet99">SarcasNet-99</a>
+    </p>
+  </div>
+
+  <div class="ak-card">
+    <h3>Efficient Medical Image Segmentation</h3>
+    <p>
+      <strong>Lightweight vision transformers</strong> with context-aware memory for accurate segmentation of
+      medical images.
+    </p>
+    <p class="ak-card__links">
+      <a href="/publication/cammel_vit">CAMMEL-ViT</a>
     </p>
   </div>
 
@@ -157,6 +180,16 @@ I received my M.Tech. from Ramaiah Institute of Technology, where my thesis won 
     <img class="ak-pubs__fig" src="/images/papers/controlla.jpg" alt="" loading="lazy" decoding="async">
     <a class="ak-pubs__title" href="/publication/controlla">Controlla: Learning Controllability via Graph-Constrained Latent Geometry</a>
     <span class="ak-pubs__meta">Conference on Neural Information Processing Systems, 2026</span>
+  </li>
+  <li>
+    <span class="ak-badge ak-badge--journal">Journal 2026</span>
+    <a class="ak-pubs__title" href="/publication/humor_detection_dhf">Multimodal Humor Detection in Videos via Domain-Specific Representations and Deep Hybrid Fusion Networks</a>
+    <span class="ak-pubs__meta">Soft Computing, Springer Nature, 2026</span>
+  </li>
+  <li>
+    <span class="ak-badge">MIUA 2026</span>
+    <a class="ak-pubs__title" href="/publication/cammel_vit">CAMMEL-ViT: Context-Aware Memory with Lightweight Vision Transformers for Medical Image Segmentation</a>
+    <span class="ak-pubs__meta">Medical Image Understanding and Analysis, University College Dublin, 2026</span>
   </li>
   <li class="has-fig">
     <span class="ak-badge">AVSS 2025</span>
