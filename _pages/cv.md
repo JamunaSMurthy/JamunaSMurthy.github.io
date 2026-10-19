@@ -186,6 +186,7 @@ redirect_from:
     <tr><th scope="row">ECCV</th><td>2026</td></tr>
     <tr><th scope="row">ACM Multimedia</th><td>2025, 2026, 2027</td></tr>
     <tr><th scope="row">ACM Multimedia Asia</th><td>2025, 2026</td></tr>
+    <tr><th scope="row">Springer Nature Journals</th><td><strong>Gold Reviewer</strong>, 2020 – present<span class="ak-note">Scientific Reports · Journal of Big Data · Signal, Image and Video Processing · Discover Informatics · Language Resources and Evaluation · Discover Artificial Intelligence · International Journal of Machine Learning and Cybernetics · Journal of Ambient Intelligence and Humanized Computing · Discover Education · International Journal of Computational Intelligence Systems · The Journal of Supercomputing</span></td></tr>
   </tbody>
 </table>
 
