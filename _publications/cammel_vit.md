@@ -1,6 +1,6 @@
 ---
 title: "CAMMEL-ViT: Context-Aware Memory with Lightweight Vision Transformers for Medical Image Segmentation"
-authors: "Abhay Bhandarkar, <strong>Jamuna S. Murthy</strong> (corresponding author), Amogh Kalasapura"
+authors: "Abhay Bhandarkar, <strong>Jamuna S. Murthy</strong> (contributing author), Amogh Kalasapura"
 collection: publications
 permalink: /publication/cammel_vit
 date: 2026-07-15

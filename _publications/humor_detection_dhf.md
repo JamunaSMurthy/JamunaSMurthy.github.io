@@ -5,7 +5,6 @@ collection: publications
 permalink: /publication/humor_detection_dhf
 date: 2026-09-21
 venue: 'Soft Computing (Springer Nature)'
-paperurl: 'https://doi.org/10.1007/s00500-026-11544-z'
 figure: 'humor_detection_dhf.jpg'
 excerpt: 'Humor in videos is hard to detect because cues are spread across text, visuals, and audio that are misaligned in time, imbalanced, and noisy. This framework combines Domain-Specific Representation Learning, which separates modality-invariant and modality-specific features with a Bi-LSTM, and a Deep Hybrid Fusion network that merges them through cross-modal attention with suppression, reaching up to 95.8% accuracy on IEMOCAP, CMU-MOSI, and CMU-MOSEI.'
 ---
