@@ -351,7 +351,7 @@ I received my M.Tech. from Ramaiah Institute of Technology, where my thesis won 
     </tr>
     <tr>
       <th scope="row">ICCV</th>
-      <td>2025, 2027</td>
+      <td>2025</td>
     </tr>
     <tr>
       <th scope="row">ECCV</th>
