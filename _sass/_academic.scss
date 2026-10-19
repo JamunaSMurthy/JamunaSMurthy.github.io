@@ -1,0 +1,1252 @@
+/* ==========================================================================
+   Academic design layer
+
+   Loaded after the Minimal Mistakes / AcademicPages theme, so plain-element
+   and single-class rules here win on source order. Everything is driven by
+   custom properties, which the dark-mode block at the bottom re-points.
+   ========================================================================== */
+
+/* Design tokens
+   ========================================================================== */
+
+:root {
+  /* Surfaces and text */
+  --ak-bg:           #ffffff;
+  --ak-surface:      #fbfcfd;
+  --ak-surface-2:    #f4f6f8;
+  --ak-ink:          #14181d;
+  --ak-ink-soft:     #39424d;
+  --ak-muted:        #5c6773;
+  --ak-rule:         #e4e8ed;
+  --ak-rule-strong:  #ccd3db;
+
+  /* Accent */
+  --ak-accent:       #15498a;
+  --ak-accent-soft:  #eaf1fb;
+
+  /* Venue badge families */
+  --ak-conf:         #15498a;
+  --ak-conf-bg:      #e9f0fa;
+  --ak-journal:      #0e6350;
+  --ak-journal-bg:   #e5f2ee;
+  --ak-workshop:     #7d5300;
+  --ak-workshop-bg:  #faf0dc;
+  --ak-award:        #96242a;
+  --ak-award-bg:     #fbeaeb;
+  --ak-neutral:      #5c6773;
+  --ak-neutral-bg:   #eef1f4;
+
+  /* Type */
+  --ak-sans: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Inter",
+             "Segoe UI Variable Text", "Segoe UI", Roboto, "Helvetica Neue",
+             Arial, sans-serif;
+  --ak-mono: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas,
+             "Liberation Mono", monospace;
+
+  color-scheme: light;
+
+  /* Rhythm */
+  --ak-measure:      50rem;
+  --ak-radius:       10px;
+  --ak-radius-sm:    6px;
+  --ak-shadow:       0 1px 2px rgba(16, 24, 40, 0.04),
+                     0 4px 16px rgba(16, 24, 40, 0.05);
+}
+
+/* Base
+   ========================================================================== */
+
+html {
+  background-color: var(--ak-bg);
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--ak-bg);
+  color: var(--ak-ink-soft);
+  font-family: var(--ak-sans);
+  font-size: 1.0625rem;
+  line-height: 1.65;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  font-feature-settings: "kern" 1, "liga" 1;
+}
+
+.page__content,
+.page__content p,
+.page__content li,
+.archive__item-excerpt {
+  font-family: var(--ak-sans);
+  color: var(--ak-ink-soft);
+}
+
+.page__content p {
+  margin: 0 0 1.1em;
+  line-height: 1.68;
+}
+
+.page__content h1,
+.page__content h2,
+.page__content h3,
+.page__content h4 {
+  font-family: var(--ak-sans);
+  color: var(--ak-ink);
+  letter-spacing: -0.018em;
+  line-height: 1.25;
+}
+
+.page__title {
+  font-size: 1.9rem;
+  font-weight: 700;
+  letter-spacing: -0.028em;
+  color: var(--ak-ink);
+}
+
+a {
+  color: var(--ak-accent);
+  text-underline-offset: 0.16em;
+}
+
+a:hover,
+a:focus {
+  color: var(--ak-accent);
+}
+
+::selection {
+  background: var(--ak-accent-soft);
+  color: var(--ak-ink);
+}
+
+:focus-visible {
+  outline: 2px solid var(--ak-accent);
+  outline-offset: 3px;
+  border-radius: 3px;
+}
+
+hr {
+  border: 0;
+  border-top: 1px solid var(--ak-rule);
+  margin: 2em 0;
+}
+
+/* Anchor targets clear the sticky masthead */
+[id] {
+  scroll-margin-top: 5rem;
+}
+
+.ak-skip {
+  position: absolute;
+  left: -9999px;
+  top: 0;
+  z-index: 100;
+  padding: 0.6em 1em;
+  background: var(--ak-accent);
+  color: #fff;
+  border-radius: 0 0 var(--ak-radius-sm) 0;
+  font-size: 0.9rem;
+  font-weight: 600;
+  text-decoration: none;
+
+  &:focus {
+    left: 0;
+    color: #fff;
+  }
+}
+
+/* Layout
+   ========================================================================== */
+
+#main {
+  max-width: 68rem;
+  margin-top: 2.5em;
+}
+
+@media (min-width: 80em) {
+  #main { max-width: 68rem; }
+}
+
+/* The theme reserves a right column for a sidebar that is 0px wide.
+   Reclaim it and cap the reading measure instead. */
+@media (min-width: 57.8125em) {
+  .page { padding-right: 0; }
+  .page__content { max-width: var(--ak-measure); }
+}
+
+/* Masthead
+   ========================================================================== */
+
+.masthead {
+  position: sticky;
+  top: 0;
+  border-bottom: 1px solid var(--ak-rule);
+  background: var(--ak-bg);
+  animation: none;
+}
+
+.masthead__inner-wrap {
+  max-width: 68rem;
+  padding: 0.55em 1em;
+  font-family: var(--ak-sans);
+}
+
+.greedy-nav {
+  background: transparent;
+  min-width: 0;
+}
+
+.greedy-nav a {
+  color: var(--ak-muted);
+  font-size: 0.94rem;
+  font-weight: 500;
+  letter-spacing: -0.005em;
+  transition: color 0.15s ease;
+
+  &:hover { color: var(--ak-ink); }
+}
+
+.greedy-nav .visible-links li:first-child a {
+  color: var(--ak-ink);
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+.greedy-nav a[aria-current="page"] {
+  color: var(--ak-ink);
+  font-weight: 600;
+  box-shadow: inset 0 -2px 0 var(--ak-accent);
+}
+
+.greedy-nav .hidden-links {
+  background: var(--ak-bg);
+  border: 1px solid var(--ak-rule);
+  border-radius: var(--ak-radius-sm);
+  box-shadow: var(--ak-shadow);
+
+  a { color: var(--ak-ink-soft); }
+
+  &::before { border-color: var(--ak-rule) transparent; }
+  &::after  { border-color: var(--ak-bg) transparent; }
+}
+
+/* The theme paints the menu button as a solid block with white bars inside.
+   Flatten it to an icon button and colour the bars with the current ink. */
+.greedy-nav button {
+  background: transparent;
+  color: var(--ak-ink);
+  border-radius: var(--ak-radius-sm);
+
+  &:hover { background: var(--ak-surface-2); }
+
+  .navicon,
+  .navicon::before,
+  .navicon::after {
+    background: currentColor;
+    height: 2px;
+    width: 20px;
+  }
+
+  .navicon::before { top: -6px; }
+  .navicon::after  { bottom: -6px; }
+}
+
+.greedy-nav .close .navicon { background: transparent; }
+
+/* Author sidebar
+   ========================================================================== */
+
+.author__avatar img {
+  border-radius: 50%;
+  box-shadow: 0 0 0 1px var(--ak-rule);
+}
+
+.author__name {
+  font-family: var(--ak-sans);
+  font-size: 1.02rem;
+  font-weight: 700;
+  letter-spacing: -0.015em;
+  color: var(--ak-ink);
+}
+
+.author__bio {
+  color: var(--ak-muted);
+  font-size: 0.86rem;
+  line-height: 1.5;
+}
+
+.author__urls {
+  background: var(--ak-bg);
+  border: 1px solid var(--ak-rule);
+  box-shadow: var(--ak-shadow);
+
+  &::before { border-color: var(--ak-rule) transparent; }
+  &::after  { border-color: var(--ak-bg) transparent; }
+}
+
+/* The theme sets white-space: nowrap here, so long values such as
+   "The Ohio State University" overflow the bordered card. Let them wrap,
+   with the icon held in its own column so wrapped lines stay aligned. */
+.author__urls li {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.45em;
+  margin-bottom: 0.3em;
+  color: var(--ak-muted);
+  font-size: 0.84rem;
+  line-height: 1.45;
+  white-space: normal;
+  overflow-wrap: anywhere;
+
+  > i,
+  > .ai,
+  > a > i,
+  > a > .ai {
+    flex: 0 0 auto;
+    margin-top: 0.22em;
+  }
+
+  &:last-child { margin-bottom: 0; }
+}
+
+.author__urls a {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 0.45em;
+  margin: 0;
+  padding: 0;
+  min-width: 0;
+  color: var(--ak-muted);
+  text-decoration: none;
+  overflow-wrap: anywhere;
+
+  &:hover {
+    color: var(--ak-accent);
+    text-decoration: underline;
+  }
+}
+
+.author__content {
+  overflow-wrap: anywhere;
+}
+
+.author__urls-wrapper button {
+  font-size: 0.8rem;
+  border-radius: 999px;
+}
+
+/* Section headings
+   ========================================================================== */
+
+.ak-section {
+  display: flex;
+  align-items: baseline;
+  gap: 0.55em;
+  margin: 3em 0 1em;
+  padding-bottom: 0.4em;
+  border-bottom: 1px solid var(--ak-rule);
+  font-size: 1.28rem;
+  font-weight: 700;
+  line-height: 1.3;
+  letter-spacing: -0.022em;
+  color: var(--ak-ink);
+
+  &::before {
+    content: "";
+    flex: 0 0 auto;
+    width: 3px;
+    height: 0.95em;
+    border-radius: 2px;
+    background: var(--ak-accent);
+    transform: translateY(0.06em);
+  }
+}
+
+.ak-lead {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  color: var(--ak-ink-soft);
+}
+
+/* Hero
+   ========================================================================== */
+
+.ak-hero__role {
+  margin: 0 0 1.1em;
+  font-family: var(--ak-mono);
+  font-size: 0.8rem;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: var(--ak-muted);
+}
+
+/* Link pills
+   ========================================================================== */
+
+.ak-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45em;
+  margin: 1.3em 0 0;
+  padding: 0;
+  list-style: none;
+
+  li { margin: 0; }
+}
+
+.ak-links a {
+  display: inline-block;
+  padding: 0.34em 0.9em;
+  border: 1px solid var(--ak-rule-strong);
+  border-radius: 999px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--ak-ink-soft);
+  text-decoration: none;
+  transition: border-color 0.15s ease, color 0.15s ease, background 0.15s ease;
+
+  &:hover {
+    color: var(--ak-accent);
+    border-color: var(--ak-accent);
+    background: var(--ak-accent-soft);
+  }
+}
+
+/* Badges
+   ========================================================================== */
+
+.ak-badge {
+  display: inline-block;
+  padding: 0.2em 0.6em;
+  border-radius: 5px;
+  font-family: var(--ak-mono);
+  font-size: 0.68rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  white-space: nowrap;
+  vertical-align: 0.1em;
+  color: var(--ak-conf);
+  background: var(--ak-conf-bg);
+}
+
+.ak-badge--journal  { color: var(--ak-journal);  background: var(--ak-journal-bg); }
+.ak-badge--workshop { color: var(--ak-workshop); background: var(--ak-workshop-bg); }
+.ak-badge--award    { color: var(--ak-award);    background: var(--ak-award-bg); }
+.ak-badge--new      { color: var(--ak-award);    background: var(--ak-award-bg); }
+.ak-badge--review   { color: var(--ak-neutral);  background: var(--ak-neutral-bg); }
+
+/* News
+   ========================================================================== */
+
+.ak-news {
+  margin: 0.4em 0 0;
+  padding: 0;
+  list-style: none;
+
+  > li {
+    position: relative;
+    padding: 0.7em 0 0.7em 7.3rem;
+    border-bottom: 1px solid var(--ak-rule);
+    font-size: 0.96rem;
+    line-height: 1.6;
+
+    &:last-child { border-bottom: 0; }
+  }
+
+  .ak-news__date {
+    position: absolute;
+    left: 0;
+    top: 0.95em;
+    width: 6.2rem;
+    font-family: var(--ak-mono);
+    font-size: 0.76rem;
+    font-weight: 500;
+    letter-spacing: 0.01em;
+    color: var(--ak-muted);
+    white-space: nowrap;
+  }
+}
+
+@media (max-width: 37.5em) {
+  .ak-news > li {
+    padding: 1.9em 0 0.7em;
+  }
+  .ak-news .ak-news__date { top: 0.5em; }
+}
+
+/* Cards
+   ========================================================================== */
+
+.ak-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(17rem, 1fr));
+  gap: 0.9rem;
+  margin: 1.3em 0 0;
+}
+
+.ak-card {
+  display: flex;
+  flex-direction: column;
+  padding: 1.15rem 1.25rem;
+  background: var(--ak-surface);
+  border: 1px solid var(--ak-rule);
+  border-radius: var(--ak-radius);
+  transition: border-color 0.15s ease, box-shadow 0.15s ease;
+
+  &:hover {
+    border-color: var(--ak-rule-strong);
+    box-shadow: var(--ak-shadow);
+  }
+
+  h3 {
+    margin: 0 0 0.45em;
+    font-size: 0.99rem;
+    font-weight: 700;
+    letter-spacing: -0.015em;
+    line-height: 1.35;
+    color: var(--ak-ink);
+  }
+
+  p {
+    margin: 0 0 0.8em;
+    font-size: 0.92rem;
+    line-height: 1.6;
+    color: var(--ak-ink-soft);
+  }
+
+  .ak-card__links {
+    margin: auto 0 0;
+    font-size: 0.82rem;
+    color: var(--ak-muted);
+  }
+}
+
+.ak-card__links a {
+  white-space: nowrap;
+  font-weight: 600;
+  color: var(--ak-accent);
+  text-decoration: none;
+
+  &:hover { text-decoration: underline; }
+}
+
+/* Publication rows
+   ========================================================================== */
+
+.ak-pubs {
+  margin: 0.9em 0 0;
+  padding: 0;
+  list-style: none;
+
+  > li {
+    position: relative;
+    padding: 0.85em 0 0.85em 7.3rem;
+    border-bottom: 1px solid var(--ak-rule);
+    font-size: 0.96rem;
+    line-height: 1.55;
+
+    &:last-child { border-bottom: 0; }
+
+    > .ak-badge {
+      position: absolute;
+      left: 0;
+      top: 1.1em;
+    }
+  }
+
+  .ak-pubs__title {
+    font-weight: 600;
+    letter-spacing: -0.012em;
+    color: var(--ak-ink);
+  }
+
+  a.ak-pubs__title {
+    color: var(--ak-ink);
+    text-decoration: none;
+
+    &:hover {
+      color: var(--ak-accent);
+      text-decoration: underline;
+    }
+  }
+
+  .ak-pubs__meta {
+    display: block;
+    margin-top: 0.2em;
+    font-size: 0.86rem;
+    line-height: 1.5;
+    color: var(--ak-muted);
+  }
+}
+
+/* Same list without a badge gutter (education, teaching, misc entries) */
+.ak-pubs--plain > li { padding-left: 0; }
+
+@media (max-width: 37.5em) {
+  .ak-pubs > li { padding: 2.1em 0 0.85em; }
+  .ak-pubs > li > .ak-badge { top: 0.75em; }
+  .ak-pubs--plain > li { padding: 0.85em 0; }
+}
+
+/* Experience
+   ========================================================================== */
+
+.ak-exp {
+  margin: 0.9em 0 0;
+  padding: 0;
+  list-style: none;
+
+  > li {
+    padding: 1.2em 0;
+    border-bottom: 1px solid var(--ak-rule);
+
+    &:last-child { border-bottom: 0; }
+  }
+}
+
+.ak-exp__head {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.55em;
+}
+
+.ak-exp__logo {
+  height: 22px;
+  width: auto;
+  flex: 0 0 auto;
+  opacity: 0.9;
+}
+
+.ak-exp__role {
+  font-weight: 700;
+  font-size: 1rem;
+  letter-spacing: -0.015em;
+  color: var(--ak-ink);
+}
+
+.ak-exp__meta {
+  display: block;
+  margin: 0.3em 0 0.6em;
+  font-family: var(--ak-mono);
+  font-size: 0.76rem;
+  letter-spacing: 0.01em;
+  color: var(--ak-muted);
+}
+
+.ak-exp__body {
+  margin: 0;
+  padding-left: 1.05em;
+  font-size: 0.93rem;
+  line-height: 1.62;
+
+  li { margin-bottom: 0.3em; }
+}
+
+/* Service table
+   ========================================================================== */
+
+.ak-service {
+  width: 100%;
+  margin: 0.9em 0 0;
+  border-collapse: collapse;
+  font-size: 0.94rem;
+
+  th, td {
+    padding: 0.6em 0.75em;
+    text-align: left;
+    vertical-align: top;
+    border-bottom: 1px solid var(--ak-rule);
+    background: transparent;
+  }
+
+  thead th {
+    font-family: var(--ak-mono);
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    font-weight: 600;
+    color: var(--ak-muted);
+    border-bottom: 1px solid var(--ak-rule-strong);
+  }
+
+  tbody th {
+    width: 9em;
+    font-weight: 700;
+    color: var(--ak-ink);
+  }
+
+  tbody tr:last-child th,
+  tbody tr:last-child td { border-bottom: 0; }
+
+  td .ak-note {
+    display: block;
+    margin-top: 0.25em;
+    font-size: 0.86em;
+    color: var(--ak-muted);
+  }
+}
+
+/* Awards
+   ========================================================================== */
+
+.ak-awards {
+  margin: 0.9em 0 0;
+  padding: 0;
+  list-style: none;
+
+  > li {
+    position: relative;
+    padding: 0.7em 0 0.7em 7.3rem;
+    border-bottom: 1px solid var(--ak-rule);
+    font-size: 0.96rem;
+    line-height: 1.55;
+
+    &:last-child { border-bottom: 0; }
+
+    > .ak-badge {
+      position: absolute;
+      left: 0;
+      top: 0.95em;
+    }
+  }
+
+  .ak-awards__note {
+    display: block;
+    margin-top: 0.15em;
+    font-size: 0.88em;
+    color: var(--ak-muted);
+  }
+}
+
+@media (max-width: 37.5em) {
+  .ak-awards > li { padding: 1.9em 0 0.7em; }
+  .ak-awards > li > .ak-badge { top: 0.5em; }
+}
+
+/* Disclosure
+   ========================================================================== */
+
+.ak-more {
+  margin-top: 0.9em;
+
+  > summary {
+    display: inline-block;
+    padding: 0.34em 0.95em;
+    border: 1px solid var(--ak-rule-strong);
+    border-radius: 999px;
+    cursor: pointer;
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: var(--ak-ink-soft);
+    list-style: none;
+    transition: border-color 0.15s ease, color 0.15s ease, background 0.15s ease;
+
+    &::-webkit-details-marker { display: none; }
+
+    &:hover {
+      color: var(--ak-accent);
+      border-color: var(--ak-accent);
+      background: var(--ak-accent-soft);
+    }
+  }
+
+  &[open] > summary { margin-bottom: 0.5em; }
+}
+
+/* Archive items (publications / teaching listings)
+   ========================================================================== */
+
+/* Each entry is a bounded card, so a paper and its figure read as one unit */
+.archive__item {
+  padding: 1.35rem 1.5rem;
+  margin-bottom: 0.9rem;
+  border: 1px solid var(--ak-rule);
+  border-radius: var(--ak-radius);
+  background: var(--ak-surface);
+}
+
+@media (max-width: 37.5em) {
+  .archive__item {
+    padding: 1.1rem 1rem;
+  }
+}
+
+.archive__item-title {
+  margin: 0 0 0.3em;
+  font-size: 1.08rem;
+  font-weight: 700;
+  letter-spacing: -0.018em;
+  line-height: 1.4;
+  border-bottom: 0;
+}
+
+.archive__item-title a {
+  color: var(--ak-ink);
+  text-decoration: none;
+
+  &:hover {
+    color: var(--ak-accent);
+    text-decoration: underline;
+  }
+}
+
+.archive__item-authors {
+  margin: 0 0 0.2em !important;
+  font-size: 0.92rem;
+  line-height: 1.5;
+  color: var(--ak-ink-soft);
+}
+
+.archive__item-venue {
+  margin: 0 0 0.5em !important;
+  font-family: var(--ak-mono);
+  font-size: 0.78rem;
+  letter-spacing: 0.005em;
+  color: var(--ak-muted);
+}
+
+.archive__item-excerpt {
+  margin: 0 0 0.7em !important;
+  font-size: 0.94rem;
+  line-height: 1.6;
+  color: var(--ak-ink-soft);
+}
+
+/* Paper action chips */
+.ak-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4em;
+  margin: 0.2em 0 0;
+}
+
+.ak-actions a {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35em;
+  padding: 0.22em 0.7em;
+  border: 1px solid var(--ak-rule-strong);
+  border-radius: 999px;
+  font-family: var(--ak-mono);
+  font-size: 0.72rem;
+  font-weight: 500;
+  letter-spacing: 0.01em;
+  color: var(--ak-ink-soft);
+  text-decoration: none;
+  transition: border-color 0.15s ease, color 0.15s ease, background 0.15s ease;
+
+  &:hover {
+    color: var(--ak-accent);
+    border-color: var(--ak-accent);
+    background: var(--ak-accent-soft);
+  }
+}
+
+/* Year rules on the publications page */
+.ak-year {
+  display: block;
+  margin: 2.6em 0 0;
+  padding-bottom: 0.4em;
+  border-bottom: 1px solid var(--ak-rule-strong);
+  font-family: var(--ak-mono);
+  font-size: 0.86rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  color: var(--ak-muted);
+}
+
+/* Gallery
+   ========================================================================== */
+
+.ak-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+  gap: 0.8rem;
+  margin: 1.3em 0 0;
+  padding: 0;
+  list-style: none;
+
+  > li {
+    margin: 0;
+    overflow: hidden;
+    border: 1px solid var(--ak-rule);
+    border-radius: var(--ak-radius);
+  }
+
+  img {
+    display: block;
+    width: 100%;
+    height: 13rem;
+    object-fit: cover;
+    margin: 0;
+  }
+}
+
+/* Footer
+   ========================================================================== */
+
+.page__footer {
+  background: transparent;
+  color: var(--ak-muted);
+  border-top: 1px solid var(--ak-rule);
+  animation: none;
+}
+
+.page__footer footer {
+  max-width: 68rem;
+  padding: 1.6em 1em 2.2em;
+  font-size: 0.84rem;
+}
+
+.page__footer a {
+  color: var(--ak-muted);
+  text-decoration: none;
+
+  &:hover {
+    color: var(--ak-accent);
+    text-decoration: underline;
+  }
+}
+
+.page__footer-follow {
+  ul {
+    margin: 0 0 0.7em;
+    padding: 0;
+  }
+
+  li {
+    display: inline-block;
+    margin-right: 1.1em;
+    font-size: 0.84rem;
+    text-transform: none;
+    letter-spacing: 0;
+  }
+}
+
+.page__footer-copyright {
+  font-size: 0.78rem;
+  color: var(--ak-muted);
+}
+
+/* Content tables
+   ========================================================================== */
+
+.page__content table { font-size: 0.94rem; }
+
+.page__content thead {
+  background: transparent;
+  border-bottom: 1px solid var(--ak-rule-strong);
+}
+
+.page__content tbody tr:nth-child(2n) { background: transparent; }
+
+.page__content td,
+.page__content th {
+  border-bottom: 1px solid var(--ak-rule);
+  padding: 0.6em 0.75em;
+}
+
+/* Dark mode
+   ==========================================================================
+   Applied two ways: automatically when the OS asks for it (unless the
+   visitor has explicitly chosen light), and unconditionally when they pick
+   dark from the masthead control. Both routes share one mixin.
+   ========================================================================== */
+
+@mixin ak-dark-rules($root) {
+  #{$root} {
+    --ak-bg:           #0e1116;
+    --ak-surface:      #151a21;
+    --ak-surface-2:    #1b222b;
+    --ak-ink:          #e8ecf1;
+    --ak-ink-soft:     #c3ccd6;
+    --ak-muted:        #8e9aa8;
+    --ak-rule:         #222b35;
+    --ak-rule-strong:  #33404d;
+
+    --ak-accent:       #7cb0ff;
+    --ak-accent-soft:  #16243a;
+
+    --ak-conf:         #8fbcff;
+    --ak-conf-bg:      #15243a;
+    --ak-journal:      #6fd3b4;
+    --ak-journal-bg:   #102b25;
+    --ak-workshop:     #e5b45c;
+    --ak-workshop-bg:  #2e2413;
+    --ak-award:        #f38b8f;
+    --ak-award-bg:     #331a1c;
+    --ak-neutral:      #97a3b1;
+    --ak-neutral-bg:   #1d242d;
+
+    --ak-shadow:       0 1px 2px rgba(0, 0, 0, 0.4),
+                       0 4px 16px rgba(0, 0, 0, 0.35);
+
+    color-scheme: dark;
+  }
+
+  /* Solid-black company artwork would disappear on a dark canvas */
+  #{$root} .ak-exp__logo { filter: invert(1) brightness(1.7); }
+
+  #{$root} .page__content code,
+  #{$root} .page__content pre {
+    background: var(--ak-surface-2);
+    color: var(--ak-ink);
+  }
+
+  #{$root} .btn--inverse {
+    background: var(--ak-surface-2);
+    border-color: var(--ak-rule-strong);
+    color: var(--ak-ink-soft);
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  @include ak-dark-rules(':root:not([data-theme="light"])');
+}
+
+@include ak-dark-rules(':root[data-theme="dark"]');
+
+/* Theme switch
+   ========================================================================== */
+
+.ak-visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  white-space: nowrap;
+  border: 0;
+}
+
+.ak-theme {
+  display: inline-flex;
+  align-items: center;
+  flex: 0 0 auto;
+  gap: 2px;
+  margin: 0;
+  padding: 2px;
+  border: 1px solid var(--ak-rule);
+  border-radius: 999px;
+  background: var(--ak-surface-2);
+  min-width: 0;
+}
+
+.ak-theme__radio {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.ak-theme__opt {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 26px;
+  height: 26px;
+  border-radius: 999px;
+  cursor: pointer;
+  color: var(--ak-muted);
+  transition: color 0.15s ease, background 0.15s ease;
+
+  svg {
+    width: 15px;
+    height: 15px;
+    display: block;
+  }
+
+  &:hover { color: var(--ak-ink); }
+}
+
+.ak-theme__radio:checked + .ak-theme__opt {
+  background: var(--ak-bg);
+  color: var(--ak-accent);
+  box-shadow: 0 0 0 1px var(--ak-rule-strong), 0 1px 2px rgba(16, 24, 40, 0.12);
+}
+
+.ak-theme__radio:focus-visible + .ak-theme__opt {
+  outline: 2px solid var(--ak-accent);
+  outline-offset: 2px;
+}
+
+/* Masthead becomes a row so the switch sits opposite the navigation */
+.masthead__inner-wrap {
+  display: flex;
+  align-items: center;
+  gap: 0.75em;
+
+  &::after { display: none; }
+}
+
+.masthead__menu {
+  flex: 1 1 auto;
+  min-width: 0;
+}
+
+/* Motion
+   ========================================================================== */
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+  }
+}
+
+/* Print
+   ========================================================================== */
+
+@media print {
+  .masthead,
+  .page__footer,
+  .ak-links,
+  .author__urls-wrapper,
+  .ak-skip { display: none !important; }
+
+  .ak-more[open] > summary { display: none; }
+
+  .ak-card,
+  .ak-exp > li,
+  .ak-pubs > li { break-inside: avoid; }
+
+  .page__content { max-width: none; }
+}
+
+/* Footer navigation
+   ========================================================================== */
+
+.page__footer-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4em 1.1em;
+  margin-bottom: 0.9em;
+  font-size: 0.84rem;
+}
+
+.page__footer-nav a {
+  color: var(--ak-ink-soft);
+  font-weight: 500;
+}
+
+/* Paper figures
+   ==========================================================================
+   Publication rows carry an optional teaser cropped from the paper. Entries
+   without one keep the plain single-column layout, so a missing figure is
+   never a visible gap.
+   ========================================================================== */
+
+/* The figure sits inside the entry, below the title/authors/venue block, at
+   the full content width. A narrow side column shrank wide diagrams to the
+   point of illegibility, which defeats the purpose of showing them. */
+.archive__item--figured .archive__figure {
+  display: block;
+  width: fit-content;
+  max-width: 100%;
+  margin: 0.9rem 0 0.2rem;
+  padding: 0.6rem;
+  border: 1px solid var(--ak-rule);
+  border-radius: var(--ak-radius-sm);
+  background: #fff;
+  transition: border-color 0.15s ease, box-shadow 0.15s ease;
+
+  img {
+    display: block;
+    width: auto;
+    max-width: 100%;
+    /* Tall figures would otherwise dominate the page; wide ones run full width */
+    max-height: 24rem;
+    height: auto;
+    margin: 0;
+    border-radius: 2px;
+  }
+
+  &:hover {
+    border-color: var(--ak-rule-strong);
+    box-shadow: var(--ak-shadow);
+  }
+}
+
+.archive__body { min-width: 0; }
+
+@media (max-width: 37.5em) {
+  .archive__item--figured .archive__figure img { max-height: 16rem; }
+}
+
+/* Homepage selected-publication rows: a small teaser floated opposite the
+   text, so the list stays scannable. */
+.ak-pubs--figures > li { padding-right: 10rem; }
+
+/* A row carrying a thumbnail reserves at least the thumbnail's height, so the
+   figure can never spill past the divider and read as the next paper's. */
+.ak-pubs--figures > li.has-fig { min-height: 6.9rem; }
+
+.ak-pubs__fig {
+  position: absolute;
+  right: 0;
+  top: 0.9em;
+  width: 8.6rem;
+  height: 4.6rem;
+  padding: 0.3rem;
+  border: 1px solid var(--ak-rule);
+  border-radius: var(--ak-radius-sm);
+  background: #fff;
+  object-fit: contain;
+}
+
+@media (max-width: 52em) {
+  .ak-pubs--figures > li { padding-right: 0; }
+  .ak-pubs--figures > li.has-fig { min-height: 0; }
+  .ak-pubs__fig { display: none; }
+}
+
+.ak-subhead {
+  margin: 1.6em 0 0.2em;
+  font-family: var(--ak-mono);
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--ak-muted);
+}
+
+.ak-section + .ak-subhead { margin-top: 1.1em; }
+
+/* Individual publication page
+   ========================================================================== */
+
+.page__figure {
+  margin: 1.4rem 0 1.6rem;
+  padding: 0.6rem;
+  width: fit-content;
+  max-width: 100%;
+  border: 1px solid var(--ak-rule);
+  border-radius: var(--ak-radius-sm);
+  background: #fff;
+
+  img {
+    display: block;
+    width: auto;
+    max-width: 100%;
+    max-height: 28rem;
+    height: auto;
+    margin: 0;
+    border-radius: 2px;
+  }
+}
+
+.page__content .archive__item-authors,
+.page__content .archive__item-venue {
+  max-width: var(--ak-measure);
+}
