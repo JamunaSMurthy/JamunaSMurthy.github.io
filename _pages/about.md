@@ -66,12 +66,12 @@ I received my M.Tech. from Ramaiah Institute of Technology, where my thesis won 
   <li>
     <span class="ak-news__date">2026</span>
     Serving as a reviewer for <strong>AAAI 2027</strong>, <strong>AISTATS 2027</strong>,
-    <strong>ACM Multimedia 2027</strong>, and <strong>ACM Multimedia Asia 2027</strong>.
+    and <strong>ACM Multimedia 2027</strong>.
   </li>
   <li>
     <span class="ak-news__date">2025</span>
     Serving as a reviewer for <strong>NeurIPS 2026</strong>, <strong>AAAI 2026</strong>, <strong>AISTATS 2026</strong>,
-    and <strong>ACM Multimedia 2026</strong>.
+    <strong>ACM Multimedia 2026</strong>, and <strong>ACM Multimedia Asia 2026</strong>.
   </li>
   <li>
     <span class="ak-news__date">Aug 2025</span>
@@ -362,7 +362,7 @@ I received my M.Tech. from Ramaiah Institute of Technology, where my thesis won 
     </tr>
     <tr>
       <th scope="row">ACM Multimedia Asia</th>
-      <td>2026, 2027</td>
+      <td>2025, 2026</td>
     </tr>
   </tbody>
 </table>

@@ -181,7 +181,7 @@ redirect_from:
     <tr><th scope="row">ICCV</th><td>2025</td></tr>
     <tr><th scope="row">ECCV</th><td>2026</td></tr>
     <tr><th scope="row">ACM Multimedia</th><td>2025, 2026, 2027</td></tr>
-    <tr><th scope="row">ACM Multimedia Asia</th><td>2026, 2027</td></tr>
+    <tr><th scope="row">ACM Multimedia Asia</th><td>2025, 2026</td></tr>
   </tbody>
 </table>
 
