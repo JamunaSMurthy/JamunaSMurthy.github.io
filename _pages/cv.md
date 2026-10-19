@@ -42,7 +42,7 @@ redirect_from:
       <li><a href="https://arxiv.org/abs/2607.01312">KathaTrace</a>: a generator-agnostic protocol for diagnosing semantic trajectory collapse in generated visual narratives, with KathaBench-25K. <em>[WACV 2027]</em></li>
       <li><a href="{{ base_path }}/publication/cammel_vit">CAMMEL-ViT</a>: context-aware memory with lightweight vision transformers for medical image segmentation. <em>[MIUA 2026]</em></li>
       <li><a href="{{ base_path }}/publication/humor_detection_dhf">Multimodal humor detection</a> in videos via domain-specific representations and deep hybrid fusion networks. <em>[Soft Computing 2026]</em></li>
-      <li><a href="https://ieeexplore.ieee.org/abstract/document/11149904/">FewShot-SPT</a>: few-shot spatiotemporal perception transformer for unseen behavioral anomalies, deployed on edge hardware. <em>[AVSS 2025]</em></li>
+      <li><a href="https://ieeexplore.ieee.org/abstract/document/11149904/">FewShot-SPT</a>: few-shot spatiotemporal perception transformer for unseen behavioral anomalies, deployed on edge hardware. <em>[AVSS 2025, CORE A]</em></li>
     </ul>
   </li>
   <li>
@@ -121,7 +121,7 @@ redirect_from:
     <a class="ak-pubs__title" href="{{ base_path }}/publication/cammel_vit">CAMMEL-ViT: Context-Aware Memory with Lightweight Vision Transformers for Medical Image Segmentation</a>
   </li>
   <li>
-    <span class="ak-badge">AVSS 2025</span>
+    <span class="ak-badge">AVSS 2025 · CORE A</span>
     <a class="ak-pubs__title" href="https://ieeexplore.ieee.org/abstract/document/11149904/">Towards Secure Video Surveillance: A Few-Shot Spatiotemporal Perception Transformer for Unseen Behavioral Anomalies</a>
   </li>
   <li>

@@ -71,7 +71,7 @@ I received my M.Tech. from Ramaiah Institute of Technology, where my thesis won 
   <li>
     <span class="ak-news__date">2025</span>
     <a href="/publication/fewshot_spt">FewShot-SPT</a> — few-shot spatiotemporal perception transformer for unseen
-    behavioral anomalies, deployed on edge hardware — published at <strong>IEEE AVSS 2025</strong>. Work in collaboration with <strong>The Ohio State University</strong> and <strong>Ming Chi University of Technology</strong>.
+    behavioral anomalies, deployed on edge hardware — published at <strong>IEEE AVSS 2025</strong> (CORE A). Work in collaboration with <strong>The Ohio State University</strong> and <strong>Ming Chi University of Technology</strong>.
   </li>
   <li>
     <span class="ak-news__date">Apr 2025</span>
@@ -195,7 +195,7 @@ I received my M.Tech. from Ramaiah Institute of Technology, where my thesis won 
     <span class="ak-badge">AVSS 2025</span>
     <img class="ak-pubs__fig" src="/images/papers/fewshot_spt.jpg" alt="" loading="lazy" decoding="async">
     <a class="ak-pubs__title" href="/publication/fewshot_spt">Towards Secure Video Surveillance: A Few-Shot Spatiotemporal Perception Transformer for Unseen Behavioral Anomalies</a>
-    <span class="ak-pubs__meta">IEEE International Conference on Advanced Visual and Signal-Based Systems, 2025</span>
+    <span class="ak-pubs__meta">IEEE International Conference on Advanced Visual and Signal-Based Systems, 2025 · CORE A</span>
   </li>
   <li class="has-fig">
     <span class="ak-badge ak-badge--journal">Journal 2025</span>
@@ -250,7 +250,7 @@ I received my M.Tech. from Ramaiah Institute of Technology, where my thesis won 
     <span class="ak-exp__meta">2022 – present · Bengaluru, India</span>
     <ul class="ak-exp__body">
       <li>Lab affiliation: Center for Imaging Technologies.</li>
-      <li>Research on controllable multimodal generation (<a href="/publication/controlla">Controlla</a>, <em>[NeurIPS 2026]</em>), evaluation of generated visual narratives (<a href="/publication/kathatrace">KathaTrace</a>, <em>[WACV 2027]</em>), and few-shot video anomaly detection (<a href="/publication/fewshot_spt">FewShot-SPT</a>, <em>[AVSS 2025]</em>).</li>
+      <li>Research on controllable multimodal generation (<a href="/publication/controlla">Controlla</a>, <em>[NeurIPS 2026]</em>), evaluation of generated visual narratives (<a href="/publication/kathatrace">KathaTrace</a>, <em>[WACV 2027]</em>), and few-shot video anomaly detection (<a href="/publication/fewshot_spt">FewShot-SPT</a>, <em>[AVSS 2025, CORE A]</em>).</li>
       <li>Teaches Artificial Intelligence and Machine Learning, Deep Learning, and Cloud Computing and Big Data; faculty sponsor of the RIT ACM Student Chapter.</li>
     </ul>
   </li>
