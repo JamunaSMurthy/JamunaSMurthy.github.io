@@ -85,12 +85,13 @@ layout: default
             {{ content }}
           {% endif %}
 
-          {% if page.paperurl or page.pdf or page.code or page.project %}
+          {% if page.paperurl or page.pdf or page.code or page.project or page.video %}
             <p class="ak-actions">
               {% if page.paperurl %}<a href="{{ page.paperurl }}">Paper</a>{% endif %}
               {% if page.pdf %}<a href="{{ base_path }}/files/{{ page.pdf }}">PDF</a>{% endif %}
               {% if page.code %}<a href="{{ page.code }}">Code</a>{% endif %}
               {% if page.project %}<a href="{{ page.project }}">Project page</a>{% endif %}
+              {% if page.video %}<a href="{{ page.video }}">Video</a>{% endif %}
             </p>
           {% endif %}
         {% else %}

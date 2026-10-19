@@ -28,6 +28,7 @@ I received my M.Tech. from Ramaiah Institute of Technology, where my thesis won 
   <li><a href="https://scholar.google.com/citations?user=DIJx__kAAAAJ&hl=en">Google Scholar</a></li>
   <li><a href="https://github.com/JamunaSMurthy">GitHub</a></li>
   <li><a href="https://x.com/Jamuna46609976">X / Twitter</a></li>
+  <li><a href="https://orcid.org/0000-0002-9114-0441">ORCID</a></li>
   <li><a href="/files/JamunaSMurthy_CV.pdf">Curriculum Vitae</a></li>
   <li><a href="mailto:jamunamurthy.s@gmail.com">Email</a></li>
 </ul>
@@ -51,12 +52,14 @@ I received my M.Tech. from Ramaiah Institute of Technology, where my thesis won 
     <span class="ak-news__date">Sep 2026</span>
     <span class="ak-badge ak-badge--new">New</span>
     <a href="/publication/humor_detection_dhf">Multimodal Humor Detection in Videos via Domain-Specific Representations and
-    Deep Hybrid Fusion Networks</a> accepted in <strong>Soft Computing</strong> (Springer Nature).
+    Deep Hybrid Fusion Networks</a> — up to 95.8% accuracy on IEMOCAP, CMU-MOSI, and CMU-MOSEI — accepted in
+    <strong>Soft Computing</strong> (Springer Nature).
   </li>
   <li>
     <span class="ak-news__date">Jul 2026</span>
     <a href="/publication/cammel_vit">CAMMEL-ViT</a> — context-aware memory with lightweight vision transformers for
-    medical image segmentation — accepted and presented at <strong>MIUA 2026</strong>, University College Dublin.
+    2D and 3D medical image segmentation — accepted and presented at <strong>MIUA 2026</strong>, University College Dublin
+    (<a href="https://www.youtube.com/watch?v=7nimsYtG8xg">video</a>).
   </li>
   <li>
     <span class="ak-news__date">2027</span>
@@ -181,13 +184,15 @@ I received my M.Tech. from Ramaiah Institute of Technology, where my thesis won 
     <a class="ak-pubs__title" href="/publication/controlla">Controlla: Learning Controllability via Graph-Constrained Latent Geometry</a>
     <span class="ak-pubs__meta">Conference on Neural Information Processing Systems, 2026</span>
   </li>
-  <li>
+  <li class="has-fig">
     <span class="ak-badge ak-badge--journal">Journal 2026</span>
+    <img class="ak-pubs__fig" src="/images/papers/humor_detection_dhf.jpg" alt="" loading="lazy" decoding="async">
     <a class="ak-pubs__title" href="/publication/humor_detection_dhf">Multimodal Humor Detection in Videos via Domain-Specific Representations and Deep Hybrid Fusion Networks</a>
     <span class="ak-pubs__meta">Soft Computing, Springer Nature, 2026</span>
   </li>
-  <li>
+  <li class="has-fig">
     <span class="ak-badge">MIUA 2026</span>
+    <img class="ak-pubs__fig" src="/images/papers/cammel_vit.jpg" alt="" loading="lazy" decoding="async">
     <a class="ak-pubs__title" href="/publication/cammel_vit">CAMMEL-ViT: Context-Aware Memory with Lightweight Vision Transformers for Medical Image Segmentation</a>
     <span class="ak-pubs__meta">Medical Image Understanding and Analysis, University College Dublin, 2026</span>
   </li>
