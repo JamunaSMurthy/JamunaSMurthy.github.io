@@ -16,9 +16,9 @@ I am an Assistant Professor in the <strong>Department of Computer Science and En
 <strong>Center for Imaging Technologies</strong>. My research focuses on <strong>multimodal video understanding,
 anomaly detection, and controllable generative models</strong> — how motion, behavior, semantics, and
 cross-modal signals from visual, textual, and audio data can be modeled for reliable, real-time intelligent systems.
-Recent work treats <strong>controllability as latent geometry</strong> (<a href="/publication/controlla">Controlla</a>,
-NeurIPS 2026) and diagnoses <strong>what generated visual stories lose in meaning</strong>
-(<a href="/publication/kathatrace">KathaTrace</a>, WACV 2027).
+Recent work treats <strong>controllability as latent geometry</strong> (<a href="/publication/controlla">Controlla</a>)
+and diagnoses <strong>what generated visual stories lose in meaning</strong>
+(<a href="/publication/kathatrace">KathaTrace</a>), both in collaboration with The Ohio State University.
 I received my M.Tech. from Ramaiah Institute of Technology, where my thesis won the
 <strong>Best Master's Thesis Award</strong> (2017), and in 2024 I received the
 <a href="https://stemrs.in/awardee.php">STEM Young Researcher Award</a>.
@@ -37,18 +37,6 @@ I received my M.Tech. from Ramaiah Institute of Technology, where my thesis won 
 
 <ul class="ak-news">
   <li>
-    <span class="ak-news__date">2026</span>
-    <span class="ak-badge ak-badge--new">New</span>
-    <a href="/publication/kathatrace">KathaTrace</a> — diagnosing semantic trajectory collapse in generated visual
-    narratives, with the KathaBench-25K benchmark — accepted at <strong>WACV 2027</strong>. New work in collaboration with <strong>The Ohio State University</strong>.
-  </li>
-  <li>
-    <span class="ak-news__date">Sep 2026</span>
-    <span class="ak-badge ak-badge--new">New</span>
-    <a href="/publication/controlla">Controlla</a> — learning controllability via graph-constrained latent geometry,
-    with the AffectHuman-43K benchmark — accepted at <strong>NeurIPS 2026</strong>. New work in collaboration with <strong>The Ohio State University</strong>.
-  </li>
-  <li>
     <span class="ak-news__date">Sep 2026</span>
     <span class="ak-badge ak-badge--new">New</span>
     <a href="/publication/humor_detection_dhf">Multimodal Humor Detection in Videos via Domain-Specific Representations and
@@ -60,6 +48,18 @@ I received my M.Tech. from Ramaiah Institute of Technology, where my thesis won 
     <a href="/publication/cammel_vit">CAMMEL-ViT</a> — context-aware memory with lightweight vision transformers for
     2D and 3D medical image segmentation — accepted and presented at <strong>MIUA 2026</strong>, University College Dublin
     (<a href="https://www.youtube.com/watch?v=7nimsYtG8xg">video</a>).
+  </li>
+  <li>
+    <span class="ak-news__date">Jul 2026</span>
+    <a href="/publication/kathatrace">KathaTrace</a> — diagnosing semantic trajectory collapse in generated visual
+    narratives, with the KathaBench-25K benchmark — released on <a href="https://arxiv.org/abs/2607.01312">arXiv</a>.
+    New work in collaboration with <strong>The Ohio State University</strong>.
+  </li>
+  <li>
+    <span class="ak-news__date">May 2026</span>
+    <a href="/publication/controlla">Controlla</a> — learning controllability via graph-constrained latent geometry,
+    with the AffectHuman-43K benchmark — released on <a href="https://arxiv.org/abs/2605.16603">arXiv</a>.
+    New work in collaboration with <strong>The Ohio State University</strong>.
   </li>
   <li>
     <span class="ak-news__date">2027</span>
@@ -173,16 +173,16 @@ I received my M.Tech. from Ramaiah Institute of Technology, where my thesis won 
 
 <ul class="ak-pubs ak-pubs--figures">
   <li class="has-fig">
-    <span class="ak-badge">WACV 2027</span>
+    <span class="ak-badge ak-badge--workshop">Preprint 2026</span>
     <img class="ak-pubs__fig" src="/images/papers/kathatrace.jpg" alt="" loading="lazy" decoding="async">
     <a class="ak-pubs__title" href="/publication/kathatrace">KathaTrace: Diagnosing Semantic Trajectory Collapse in Generated Visual Narratives</a>
-    <span class="ak-pubs__meta">IEEE/CVF Winter Conference on Applications of Computer Vision, 2027</span>
+    <span class="ak-pubs__meta">arXiv preprint, 2026</span>
   </li>
   <li class="has-fig">
-    <span class="ak-badge">NeurIPS 2026</span>
+    <span class="ak-badge ak-badge--workshop">Preprint 2026</span>
     <img class="ak-pubs__fig" src="/images/papers/controlla.jpg" alt="" loading="lazy" decoding="async">
     <a class="ak-pubs__title" href="/publication/controlla">Controlla: Learning Controllability via Graph-Constrained Latent Geometry</a>
-    <span class="ak-pubs__meta">Conference on Neural Information Processing Systems, 2026</span>
+    <span class="ak-pubs__meta">arXiv preprint, 2026</span>
   </li>
   <li class="has-fig">
     <span class="ak-badge ak-badge--journal">Journal 2026</span>
@@ -255,7 +255,7 @@ I received my M.Tech. from Ramaiah Institute of Technology, where my thesis won 
     <span class="ak-exp__meta">2022 – present · Bengaluru, India</span>
     <ul class="ak-exp__body">
       <li>Lab affiliation: Center for Imaging Technologies.</li>
-      <li>Research on controllable multimodal generation (<a href="/publication/controlla">Controlla</a>, <em>[NeurIPS 2026]</em>), evaluation of generated visual narratives (<a href="/publication/kathatrace">KathaTrace</a>, <em>[WACV 2027]</em>), and few-shot video anomaly detection (<a href="/publication/fewshot_spt">FewShot-SPT</a>, <em>[AVSS 2025, CORE A]</em>).</li>
+      <li>Research on controllable multimodal generation (<a href="/publication/controlla">Controlla</a>, <em>[arXiv 2026]</em>), evaluation of generated visual narratives (<a href="/publication/kathatrace">KathaTrace</a>, <em>[arXiv 2026]</em>), and few-shot video anomaly detection (<a href="/publication/fewshot_spt">FewShot-SPT</a>, <em>[AVSS 2025, CORE A]</em>).</li>
       <li>Teaches Artificial Intelligence and Machine Learning, Deep Learning, and Cloud Computing and Big Data; faculty sponsor of the RIT ACM Student Chapter.</li>
     </ul>
   </li>

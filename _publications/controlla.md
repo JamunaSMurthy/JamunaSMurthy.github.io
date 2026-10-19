@@ -3,8 +3,8 @@ title: "Controlla: Learning Controllability via Graph-Constrained Latent Geometr
 authors: "<strong>Jamuna S. Murthy</strong>, Amin Karimi Monsefi, Rajiv Ramnath"
 collection: publications
 permalink: /publication/controlla
-date: 2026-09-25
-venue: 'NeurIPS 2026 — Conference on Neural Information Processing Systems'
+date: 2026-05-15
+venue: 'arXiv preprint'
 paperurl: 'https://arxiv.org/abs/2605.16603'
 figure: 'controlla.jpg'
 project: 'https://jamunasmurthy.github.io/controlla-affecthuman/'

@@ -3,8 +3,8 @@ title: "KathaTrace: Diagnosing Semantic Trajectory Collapse in Generated Visual 
 authors: "<strong>Jamuna S. Murthy</strong>, Amin Karimi Monsefi, Rajiv Ramnath"
 collection: publications
 permalink: /publication/kathatrace
-date: 2027-01-01
-venue: 'WACV 2027 — IEEE/CVF Winter Conference on Applications of Computer Vision'
+date: 2026-07-01
+venue: 'arXiv preprint'
 paperurl: 'https://arxiv.org/abs/2607.01312'
 figure: 'kathatrace.jpg'
 project: 'https://jamunasmurthy.github.io/kathatrace/'
