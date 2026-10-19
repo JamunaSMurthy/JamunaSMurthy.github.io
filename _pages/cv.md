@@ -38,6 +38,7 @@ redirect_from:
     <span class="ak-exp__meta">2022 – present · Bengaluru, India</span>
     <ul class="ak-exp__body">
       <li>Lab affiliation: Center for Imaging Technologies.</li>
+      <li>Research collaboration with <a href="https://cse.osu.edu/people/ramnath.6">Prof. Rajiv Ramnath</a>, The Ohio State University, on controllable image generation and generated visual narratives.</li>
       <li><a href="https://arxiv.org/abs/2605.16603">Controlla</a>: controllability as graph-constrained latent geometry for identity-preserving multimodal affective control, with the AffectHuman-43K benchmark. <em>[arXiv 2026]</em></li>
       <li><a href="https://arxiv.org/abs/2607.01312">KathaTrace</a>: a generator-agnostic protocol for diagnosing semantic trajectory collapse in generated visual narratives, with KathaBench-25K. <em>[arXiv 2026]</em></li>
       <li><a href="{{ base_path }}/publication/cammel_vit">CAMMEL-ViT</a>: context-aware memory with lightweight vision transformers for medical image segmentation. <em>[MIUA 2026]</em></li>
@@ -178,8 +179,8 @@ redirect_from:
     <tr><th scope="row">NeurIPS</th><td>2026</td></tr>
     <tr><th scope="row">AAAI</th><td>2025, 2026, 2027</td></tr>
     <tr><th scope="row">AISTATS</th><td>2026, 2027</td></tr>
-    <tr><th scope="row">ICCV</th><td>2025, 2026, 2027</td></tr>
-    <tr><th scope="row">ECCV</th><td>2025, 2026, 2027</td></tr>
+    <tr><th scope="row">ICCV</th><td>2025, 2027</td></tr>
+    <tr><th scope="row">ECCV</th><td>2026</td></tr>
     <tr><th scope="row">ACM Multimedia</th><td>2025, 2026, 2027</td></tr>
     <tr><th scope="row">ACM Multimedia Asia</th><td>2026, 2027</td></tr>
   </tbody>

@@ -19,7 +19,8 @@ infrastructure that let them run reliably in the real world, from edge devices t
 My latest focus is the <strong>theory of controllable image generation</strong>: treating controllability as a
 property of <strong>structured latent geometry</strong> rather than inference-time conditioning
 (<a href="/publication/controlla">Controlla</a>), and measuring what generated images lose in meaning
-(<a href="/publication/kathatrace">KathaTrace</a>), both in collaboration with The Ohio State University.
+(<a href="/publication/kathatrace">KathaTrace</a>), both in collaboration with
+<a href="https://cse.osu.edu/people/ramnath.6">Prof. Rajiv Ramnath</a>'s group at The Ohio State University.
 I received my M.Tech. from Ramaiah Institute of Technology, where my thesis won the
 <strong>Best Master's Thesis Award</strong> (2017), and in 2024 I received the
 <a href="https://stemrs.in/awardee.php">STEM Young Researcher Award</a>.
@@ -73,7 +74,7 @@ I received my M.Tech. from Ramaiah Institute of Technology, where my thesis won 
     and <strong>ACM Multimedia 2026</strong>.
   </li>
   <li>
-    <span class="ak-news__date">2025</span>
+    <span class="ak-news__date">Aug 2025</span>
     <a href="/publication/fewshot_spt">FewShot-SPT</a> — few-shot spatiotemporal perception transformer for unseen
     behavioral anomalies, deployed on edge hardware — published at <strong>IEEE AVSS 2025</strong> (CORE A). Work in collaboration with <strong>The Ohio State University</strong> and <strong>Ming Chi University of Technology</strong>.
   </li>
@@ -248,6 +249,7 @@ I received my M.Tech. from Ramaiah Institute of Technology, where my thesis won 
     <span class="ak-exp__meta">2022 – present · Bengaluru, India</span>
     <ul class="ak-exp__body">
       <li>Lab affiliation: Center for Imaging Technologies.</li>
+      <li>Research collaboration with <a href="https://cse.osu.edu/people/ramnath.6">Prof. Rajiv Ramnath</a>, The Ohio State University, on controllable image generation and generated visual narratives.</li>
       <li>Research on controllable multimodal generation (<a href="/publication/controlla">Controlla</a>, <em>[arXiv 2026]</em>), evaluation of generated visual narratives (<a href="/publication/kathatrace">KathaTrace</a>, <em>[arXiv 2026]</em>), and few-shot video anomaly detection (<a href="/publication/fewshot_spt">FewShot-SPT</a>, <em>[AVSS 2025, CORE A]</em>).</li>
       <li>Teaches Artificial Intelligence and Machine Learning, Deep Learning, and Cloud Computing and Big Data; faculty sponsor of the RIT ACM Student Chapter.</li>
     </ul>
@@ -349,11 +351,11 @@ I received my M.Tech. from Ramaiah Institute of Technology, where my thesis won 
     </tr>
     <tr>
       <th scope="row">ICCV</th>
-      <td>2025, 2026, 2027</td>
+      <td>2025, 2027</td>
     </tr>
     <tr>
       <th scope="row">ECCV</th>
-      <td>2025, 2026, 2027</td>
+      <td>2026</td>
     </tr>
     <tr>
       <th scope="row">ACM Multimedia</th>
