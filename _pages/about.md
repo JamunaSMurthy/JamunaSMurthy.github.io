@@ -255,7 +255,7 @@ I received my M.Tech. from Ramaiah Institute of Technology, where my thesis won 
     <ul class="ak-exp__body">
       <li>Lab affiliation: Center for Imaging Technologies.</li>
       <li>Research collaborator with <a href="https://cse.osu.edu/people/ramnath.6">Prof. Rajiv Ramnath</a>'s CETI research group, The Ohio State University, on controllable image generation and generated visual narratives.</li>
-      <li>Teaches Artificial Intelligence and Machine Learning, Deep Learning, and Cloud Computing and Big Data; faculty sponsor of the RIT ACM Student Chapter.</li>
+      <li>Teaches Artificial Intelligence and Machine Learning, Object Oriented Programming, Cloud Computing and Big Data, and Introduction to Deep Learning; faculty sponsor of the RIT ACM Student Chapter.</li>
     </ul>
   </li>
 

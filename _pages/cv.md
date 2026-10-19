@@ -88,16 +88,20 @@ redirect_from:
 
 <ul class="ak-pubs ak-pubs--plain">
   <li>
-    <span class="ak-pubs__title">Artificial Intelligence and Machine Learning (CS52)</span> — Ramaiah Institute of Technology
-    <span class="ak-pubs__meta">Undergraduate · Fall semester</span>
+    <span class="ak-pubs__title">Artificial Intelligence and Machine Learning (CS52)</span> — Ramaiah Institute of Technology, Department of Computer Science and Engineering
+    <span class="ak-pubs__meta">Undergraduate course · Fall Semester</span>
   </li>
   <li>
-    <span class="ak-pubs__title">Cloud Computing and Big Data (CS62)</span> — Ramaiah Institute of Technology
-    <span class="ak-pubs__meta">Undergraduate · Spring semester</span>
+    <span class="ak-pubs__title">Object Oriented Programming (CS34)</span> — Ramaiah Institute of Technology, Department of Computer Science and Engineering
+    <span class="ak-pubs__meta">Undergraduate course · Fall Semester</span>
   </li>
   <li>
-    <span class="ak-pubs__title">Deep Learning</span> — Ramaiah Institute of Technology
-    <span class="ak-pubs__meta">Undergraduate · Spring semester</span>
+    <span class="ak-pubs__title">Cloud Computing and Big Data (CS62)</span> — Ramaiah Institute of Technology, Department of Computer Science and Engineering
+    <span class="ak-pubs__meta">Undergraduate course · Spring Semester</span>
+  </li>
+  <li>
+    <span class="ak-pubs__title">Introduction to Deep Learning (CSE631)</span> — Ramaiah Institute of Technology, Department of Computer Science and Engineering
+    <span class="ak-pubs__meta">Undergraduate course · Spring Semester</span>
   </li>
 </ul>
 
